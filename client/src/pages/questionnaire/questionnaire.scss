@@ -1,0 +1,76 @@
+.progress-bar {
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+}
+
+.selectionMethod {
+    input:focus {
+        border: none;
+    }
+}
+
+.navigate-group {
+    position: absolute;
+    bottom: 70px;
+    left: 5%;
+    width: 90%;
+
+    .navigate-back, .navigate-next {
+        background-color: #04AA6D;
+        color: white;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 6px;
+    }
+
+    .navigate-back {
+        float: left;
+    }
+    
+    .navigate-next {
+        float: right;
+    }
+
+    .navigate-back:hover, .navigate-next:hover {
+        cursor: pointer;
+    }
+}
+
+.checkmark {
+    display:inline-block;
+    width: 22px;
+    height:22px;
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+
+.checkmark_circle {
+    position: absolute;
+    width:22px;
+    height:22px;
+    background-color: green;
+    border-radius:11px;
+    left: 0px;
+    top: 20px;
+}
+
+.checkmark_stem {
+    position: absolute;
+    width:3px;
+    height:9px;
+    background-color:#fff;
+    left:11px;
+    top:26px;
+}
+
+.checkmark_kick {
+    position: absolute;
+    width:3px;
+    height:3px;
+    background-color:#fff;
+    left:8px;
+    top:32px;
+}

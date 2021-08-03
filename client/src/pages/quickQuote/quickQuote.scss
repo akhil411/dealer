@@ -1,0 +1,63 @@
+@import '../../App.scss';
+
+#quickQuoteResult {
+    width: 1000px;
+    -moz-box-shadow: 15px 15px 5px #17475a;
+    -webkit-box-shadow: 15px 15px 5px #17475a;
+    box-shadow: 15px 15px 5px #17475a;
+
+    .quick-quote-results {
+        .quick-quote-result-header {
+            div {
+                color: $brandColor;
+            }
+        }
+    
+        .quick-quote-result-row {
+            div {
+                color: $white;
+            }
+            div:hover {
+                cursor: pointer;
+            }
+
+            .lender-logo {
+                width: 120px;
+            }
+        }
+    
+        .quick-quote-result-header, .quick-quote-result-row {
+            width: 900px;
+            display: flex;
+            margin: auto;
+    
+            div {
+                width: 160px;
+                min-height: 50px;
+                text-align: center;
+                font-size: 14px;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    
+        .no-results {
+            margin-top: 30px;
+            text-align: center;
+            color: $errorColor;
+        }
+    
+        .selected {
+            background-color: rgb(3, 144, 3);
+        }
+    }
+
+    .quick-quote-actions {
+        text-align: center;
+        position: fixed;
+        bottom: 20px;
+        left: 43%;
+    }
+}

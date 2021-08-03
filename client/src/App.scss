@@ -1,0 +1,19 @@
+// declare all constants here
+$errorColor: rgb(114, 3, 3);
+$white: #ffffff;
+$brandColor: #011820;
+
+// images
+$backgroundImage: '/assets/images/background.jpeg';
+
+// common classes
+.error-text {
+    color: $errorColor;
+    font-size: 12px;
+    font-style: italic;
+    padding: 2px;
+}
+
+.Modal {
+    background-color: papayawhip;
+}

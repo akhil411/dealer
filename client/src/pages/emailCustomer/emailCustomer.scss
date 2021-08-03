@@ -1,0 +1,23 @@
+@import '../../App.scss';
+
+#emailModal {
+    -moz-box-shadow: 15px 15px 5px #17475a;
+    -webkit-box-shadow: 15px 15px 5px #17475a;
+    box-shadow: 15px 15px 5px #17475a;
+    width: 550px;
+    height: 360px;
+    color: $white;
+
+    .field>label {
+        color: $white;
+    }
+
+    .send-email-action-buttons {
+        display: flex;
+        justify-content: center;
+
+        button {
+            margin: 6px;
+        }
+    }
+}

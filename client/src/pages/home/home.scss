@@ -1,0 +1,80 @@
+@import '../../App.scss';
+
+.pageWrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url($backgroundImage);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+    .applicationBox {
+        margin: auto;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        color: #ffffff;
+        padding: 10px;
+        width: 80%;
+        min-width: 320px;
+        justify-content: center;
+
+        .validateBoxSection {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+
+            #proceed {
+                margin-top: 20px;
+                width: 280px;
+            }
+
+            #proceed:hover {
+                cursor: pointer;
+            }
+
+            #codeInput {
+                width: 280px;
+            }
+        }
+
+        .selectionMethod {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                max-width: 480px;
+            }
+
+            .application-button-group {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                margin: auto;
+                justify-content: center;
+            }
+            .application-button {
+                width: 200px;
+                margin: 10px;
+                background-color: #ffffff;
+                color: #0f037e;
+                outline: none;
+                border-radius: 16px;
+                font-size: 16px;
+                height: 50px;
+                align-items: center;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+            }
+            .application-button:hover {
+                cursor: pointer;
+                background-color: #b4e3f8;
+            }
+        }
+    }
+}

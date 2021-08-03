@@ -1,0 +1,46 @@
+@import '../../App.scss';
+
+.application-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .actions {
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .application-form {
+        width: 100%;
+        padding: 20px;
+
+        .application-fields {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+    
+            .field {
+                margin-right: 15px;
+  
+                input {
+                    width: 220px;
+                }
+            }
+
+            label {
+                margin-bottom: 5px;
+            }
+
+            .radio {
+                margin-right: 10px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
